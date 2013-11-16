@@ -1,0 +1,25 @@
+{
+  "name": "phpsessionjs",
+  "authors": [
+    "Wojciech Szaranski <owner@weird.cat>"
+  ],
+  "description": "Library to decode php sessions strings stored in memcache",
+  "main": "Session.js",
+  "dependencies": {
+      "phpjs": "phpjs#fe02c9cc53aa3a88d859c3d5a257d1e19682e36d"
+  },
+  "devDependencies": {
+    "requirejs": "latest"
+  },
+  "keywords": [
+    "php",
+    "memcache",
+    "session",
+    "decode"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}
